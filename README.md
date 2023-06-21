@@ -50,7 +50,7 @@ return view('artikel/admin_index', $data);
 - Setelah semua data ditetapkan di dalam variabel $data, kita mengembalikan tampilan 'artikel/admin_index' dengan menggunakan data tersebut.
 
 
-  # Ubah link pager, ubah seperti berikut pada admin_index.php
+  # 2. Ubah link pager, ubah seperti berikut pada admin_index.php
 
 ```
    <?= $pager->only(['q'])->links(); ?>
